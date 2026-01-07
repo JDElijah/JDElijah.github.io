@@ -1,13 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Josh | Game Design & Programming</title>
-</head>
-<body>
-    <h1>Josh</h1>
-    <p>Game Design & Programming Portfolio</p>
-    <p>Associate's Degree in Computer Science</p>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Josh | Game Design & Programming</title>
+        <meta
+            name="description"
+            content="Josh's portfolio featuring game design, Unreal Engine Prototypes, and programming projects."
+        />
+
+        <!-- Bootstrap CDN -->
+        <link 
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+            rel="stylesheet" 
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+            crossorigin="anonymous"
+        />
+    
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+
 </html>
+
+<body> 
+    <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top border-bottom">
+        <div class="container">
+            <a class="navbar-brand fw-semibold" href="#top">Josh</a>
+            <button
+               class="navbar-toggler"
+               type="button"
+               data-bs-toggle="collapse"
+               data-bs-target="#nav"
+               aria-controls="nav"
+               aria-expanded="false"
+               aria-label="Toggle navigation" 
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto gap-lg-2">
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+     </nav>
+
+     <main id="top">
+        <!-- Hero Section -->
+         <section class="py-5">
+            <div class="container">
+                <div class="row align-items-center g-4">
+                    <div class="col-12 col-lg-7">
+                        <h1 class="display-5 fw-bold mb-3">Game Design and Programming</h1>
+                        <p class="lead text-secondary mb-4">
+                            I build gameplay systems, prototpes, and web projects. Currently completing an Associate's Degree in Computer Science.
+                        </p>
+
+                        <div class="d-flex flex-wrap gap-2">
+                            <a class="btn btn-primary" href="#projects">View Projects</a>
+                            <a class="btn btn-outline-secondary" href="#contact">Get in Touch</a>
+                        </div>
+
+                        <div class="mt-4 d-flex flex-wrap gap-3">
+                            <a class="link-secondary" href="https://github.com/JDElijah" target="_blank" rel="noreferrer">GitHub</a>
+                            <a class="link-secondary" href="https://www.linkedin.com/in/joshuaelijah/" target="_blank" rel="noreferrer">LinkedIn</a>
+                            <a class="link-secondary" href="https://www.youtube.com/@devsync_official" target="_blank" rel="noreferrer">YouTube / Demos</a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-5">
+                        <div class="p-4 border rounded-4 bg-light">
+                            <p class="fw-semibold mb-2">Featured Focus</p>
+                            <ul class="mb-0 text-secondary">
+                                <li>Unreal Engine Prototypes (Systems & Mechanics)</li>
+                                <li>Programming Projects</li> 
+                                <li>Web-based tools and interactive UI</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- Projects -->
+          <section id="projects" class="py-5 bg-body-tertiary">
+            <div class="container">
+                <div class="d-flex align-items-end justify-content-between gap-3 mb-4">
+                    <div>
+                        <h2 class="h1 mb-1">Projects</h2>
+                        <p class="text-secondary mb-0">A few selected builds. More details on request.</p>
+                    </div>
+                    <a class="btn btn-sm btn-outline-secondary" href="./projects/index.html">All Projects</a>
+                </div>
+            </div> 
+
+            <!-- Project Card 1 -->
+             <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h3 class="h5 card-title">Modular Ability / Cooldown System</h3>
+                        <p class="card-text text-secondary">
+                            A reusable gameplay ability framework with cooldowns, UI hooks, and data-driven tuning.
+                        </p>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="badge text-bg-secondary">Unreal</span>
+                            <span class="badge text-bg-secondary">Blueprints/C++</span>
+                        </div>
+
+                    </div>
+                </div>
+             </div>
+
+          </section>
+
+
+     </main>
+</body>
+
