@@ -1,0 +1,16 @@
+@import "tailwindcss" source("../");
+
+@layer components {
+  .nav-link {
+    @apply text-gray-300 hover:text-white transition-colors duration-200 font-medium;
+  }
+
+  .nav-link-mobile {
+    @apply block w-full px-4 py-3 text-gray-300 hover:text-white transition-colors duration-200;
+  }
+
+  .nav-link:focus-visible,
+  .nav-link-mobile:focus-visible {
+    @apply outline-none ring-2 ring-gray-500 rounded;
+  }
+}

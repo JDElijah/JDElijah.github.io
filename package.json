@@ -1,0 +1,27 @@
+{
+  "name": "jdelijah.github.io",
+  "version": "1.0.0",
+  "description": "Personal portfolio showcasing my game design and programming projects. Built using HTML, CSS, and JavaScript\r # Josh – Game Design & Programming Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "tw:watch": "tailwindcss -i ./css/tailwind.css -o ./css/styles.css --watch",
+    "tw:build": "tailwindcss -i ./css/tailwind.css -o ./css/styles.css --minify",
+    "dev": "tailwindcss -i ./css/tailwind.css -o ./css/styles.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JDElijah/JDElijah.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JDElijah/JDElijah.github.io/issues"
+  },
+  "homepage": "https://github.com/JDElijah/JDElijah.github.io#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  }
+}
