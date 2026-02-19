@@ -1,4 +1,4 @@
-@import "tailwindcss" source("../");
+@import "tailwindcss";
 
 @layer components {
   .nav-link {
@@ -15,11 +15,17 @@
   }
 
   .skill-card {
-    @apply aspect-square rounded-2xl bg-gray-900/40 flex flex-col items-center justify-center gap-2 p-6 transition hover:bg-gray-900/70;
+    @apply w-16 sm:w-20 md:w-24 aspect-square p-2 sm:p-3 md:p-4 rounded-2xl bg-gray-900/40 flex flex-col items-center justify-center gap-1 transition hover:bg-gray-900/70;
   }
-
 
   .skill-icon {
-    @apply mx-auto h-12 w-12;
+    /* @apply mx-auto h-12 w-12; */
+    @apply h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12;
   }
+
+  .skill-card p {
+    /* @apply text-center text-xs sm:text-sm leading-tight; */
+    @apply w-full text-center text-[10px] sm:text-xs md:text-sm whitespace-nowrap overflow-hidden text-ellipsis;
+  }
+
 }
