@@ -16,7 +16,7 @@
 
     <!-- Navbar -->
     <nav class="sticky top-0 z-50 border-b border-gray-800 bg-gray-900/80 backdrop-blur">
-        <div class="mx-auto max-w-6xl px-4">
+        <div class="section-wrap">
             <div class="flex h-16 items-center justify-between">
 
                 <!-- Brand -->
@@ -57,7 +57,7 @@
     </nav>
 
     <!-- Content  -->
-    <main class="mx-auto max-w-6xl px-4 py-10 space-y-16">
+    <main class="section-wrap py-10 space-y-16">
 
         <!-- About Section -->
         <section id="about" class="py-16">
@@ -89,13 +89,13 @@
 
         <!-- Project Section -->
         <section id="projects" class="py-16">
-            <div class="mx-auto max-w-6xl px-4">
-                <div class="grid gap-10 lg:grid-cols-12">
+            <div class="section-wrap">
+                <div class="section-grid">
 
                     <!-- Left Section Title -->
-                    <div class="lg:col-span-4">
-                        <h2 class="text-3xl font-semibold text-gray-100">Projects</h2>
-                        <div class="mt-3 h-1 w-16 rounded bg-blue-400"></div>
+                    <div class="section-left">
+                        <h2 class="section-title">Projects</h2>
+                        <div class="section-underline"></div>
                         <p class="mt-4 max-w-xl text-gray-400">
                             A mix of full-stack apps, automation, and interactive/game systems. I like projects where I
                             can learn
@@ -115,14 +115,14 @@
                     </div>
 
                     <!-- Right: Project Cards -->
-                    <div class="lg:col-span-8">
+                    <div class="section-right">
                         <div class="grid gap-4 sm:grid-cols-2">
                             <!-- Featured / Ongoing -->
-                            <article class="rounded-2xl border border-gray-800 bg-gray-900/50 p-6 shadow-sm">
+                            <article class="reg-card">
                                 <div class="flex items-start justify-between gap-3">
                                     <h3 class="text-lg font-semibold text-gray-100">MERN Jewerly E-Commerce</h3>
                                     <span
-                                        class="text-xs font-medium rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1 text-gray-300">
+                                        class="text-xs font-medium pill text-gray-300">
                                         Ongoing
                                     </span>
                                 </div>
@@ -132,13 +132,13 @@
 
                                 <div class="mt-4 flex flex-wrap gap-2 text-xs text-gray-3000">
                                     <span
-                                        class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">MongoDB</span>
+                                        class="pill">MongoDB</span>
                                     <span
-                                        class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">Express</span>
+                                        class="pill">Express</span>
                                     <span
-                                        class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">React</span>
+                                        class="pill">React</span>
                                     <span
-                                        class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">Node</span>
+                                        class="pill">Node</span>
                                 </div>
                                 <div class="mt-5 flex flex-wrap gap-3">
                                     <a href="#" class="text-sm font-medium text-blue-400 hover:text-blue-300">Repo</a>
@@ -148,11 +148,11 @@
                             </article>
 
                             <!-- Automation -->
-                            <article class="rounded-2xl border border-gray-800 bg-gray-900/50 p-6 shadow-sm">
+                            <article class="reg-card">
                                 <div class="flex item-start justify-between gap-3">
                                     <h3 class="text-lg font-semibold text-gray-100">LoginUsage CSV Export</h3>
                                     <span
-                                        class="text-xs font-medium rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1 text-gray-300">
+                                        class="text-xs font-medium pill text-gray-300">
                                         Ongoing
                                     </span>
                                 </div>
@@ -163,11 +163,11 @@
                                 </p>
                                 <div class="mt-4 flex flex-wrap gap-2 text-xs text-gray-300">
                                     <span
-                                        class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">PowerShell</span>
+                                        class="pill">PowerShell</span>
                                     <span
-                                        class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">Windows</span>
+                                        class="pill">Windows</span>
                                     <span
-                                        class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">CSV</span>
+                                        class="pill">CSV</span>
                                 </div>
 
                                 <div class="mt-5 flex flex-wrap gap-3">
@@ -178,11 +178,11 @@
                             </article>
 
                             <!-- Web (Completed) -->
-                            <article class="rounded-2xl border border-gray-800 bg-gray-900/50 p-6 shadow-sm">
+                            <article class="reg-card">
                                 <div class="flex items-start justify-between gap-3">
                                     <h3 class="text-lg font-semibold text-gray-100">OMDb Poster Search</h3>
                                     <span
-                                        class="text-xs font-medium rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1 text-gray-300">
+                                        class="text-xs font-medium pill text-gray-300">
                                         Completed
                                     </span>
                                 </div>
@@ -193,11 +193,11 @@
 
                                 <div class="mt-4 flex flex-wrap gap-2 text-xs text-gray-300">
                                     <span
-                                        class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">JavaScript</span>
+                                        class="pill">JavaScript</span>
                                     <span
-                                        class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">HTML/CSS</span>
+                                        class="pill">HTML/CSS</span>
                                     <span
-                                        class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">API</span>
+                                        class="pill">API</span>
                                 </div>
 
                                 <div class="mt-5 flex flex-wrap gap-3">
@@ -207,11 +207,11 @@
                             </article>
 
                             <!-- Game Dev (External) -->
-                            <article class="rounded-2xl border border-gray-800 bg-gray-900/50 p-6 shadow-sm">
+                            <article class="reg-card">
                                 <div class="flex items-start justify-between gap-3">
                                     <h3 class="text-lg font-semibold text-gray-100">Game Dev Portfolio</h3>
                                     <span
-                                        class="text-xs font-medium rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1 text-gray-300">
+                                        class="text-xs font-medium pill text-gray-300">
                                         External
                                     </span>
                                 </div>
@@ -222,11 +222,11 @@
 
                                 <div class="mt-4 flex flex-wrap gap-2 text-xs text-gray-300">
                                     <span
-                                        class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">Unreal</span>
+                                        class="pill">Unreal</span>
                                     <span
-                                        class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">Blueprints</span>
+                                        class="pill">Blueprints</span>
                                     <span
-                                        class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">C++</span>
+                                        class="pill">C++</span>
                                 </div>
 
                                 <div class="mt-5 flex flex-wrap gap-3">
@@ -251,23 +251,23 @@
 
         <!-- Experience Section -->
         <section id="experience" class="py-16">
-            <div class="mx-auto max-w-6xl px-4">
-                <div class="grid gap-10 lg:grid-cols-12">
+            <div class="section-wrap">
+                <div class="section-grid">
 
                     <!-- Left Section Title -->
-                    <div class="lg:col-span-4">
-                        <h2 class="text-3xl font-semibold text-gray-100">Experience</h2>
-                        <div class="mt-3 h-1 w-16 rounded bg-blue-400"></div>
+                    <div class="section-left">
+                        <h2 class="section-title">Experience</h2>
+                        <div class="section-underline"></div>
                     </div>
 
                     <!-- Right: Experience Cards -->
-                    <div class="lg:col-span-8">
+                    <div class="section-right">
                         <div class="space-y-4">
-                            <div class="lg:col-span-8">
+                            <div class="section-right">
                                 <div class="space-y-4">
 
                                     <!-- LAVC -->
-                                    <article class="rounded-2xl border border-gray-800 bg-gray-900/50 p-6 shadow-sm">
+                                    <article class="reg-card">
                                         <div class="flex flex-wrap items-start justify-between gap-2">
                                             <h3 class="text-lg font-semibold text-gray-100">Computer Lab Assistant</h3>
                                             <span class="text-sm font-medium text-gray-400">Sep 2024 – Present</span>
@@ -293,20 +293,20 @@
 
                                         <div class="mt-4 flex flex-wrap gap-2 text-xs text-gray-300">
                                             <span
-                                                class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">Windows</span>
+                                                class="pill">Windows</span>
                                             <span
-                                                class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">macOS</span>
+                                                class="pill">macOS</span>
                                             <span
-                                                class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">Office
+                                                class="pill">Office
                                                 365</span>
                                             <span
-                                                class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">Troubleshooting</span>
+                                                class="pill">Troubleshooting</span>
                                         </div>
                                     </article>
 
 
                                     <!-- UCSB Collaborate -->
-                                    <article class="rounded-2xl border border-gray-800 bg-gray-900/50 p-6 shadow-sm">
+                                    <article class="reg-card">
                                         <div class="flex flex-wrap items-start justify-between gap-2">
                                             <h3 class="text-lg font-semibold text-gray-100">Technical Support Consultant
                                             </h3>
@@ -332,20 +332,20 @@
 
                                         <div class="mt-4 flex flex-wrap gap-2 text-xs text-gray-300">
                                             <span
-                                                class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">AV
+                                                class="pill">AV
                                                 Systems</span>
                                             <span
-                                                class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">Video
+                                                class="pill">Video
                                                 Conferencing</span>
                                             <span
-                                                class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">User
+                                                class="pill">User
                                                 Support</span>
                                         </div>
                                     </article>
 
 
                                     <!-- Survivor -->
-                                    <article class="rounded-2xl border border-gray-800 bg-gray-900/50 p-6 shadow-sm">
+                                    <article class="reg-card">
                                         <div class="flex flex-wrap items-start justify-between gap-2">
                                             <h3 class="text-lg font-semibold text-gray-100">Production Assistant</h3>
                                             <span class="text-sm font-medium text-gray-400">2019 – 2020</span>
@@ -371,18 +371,18 @@
 
                                         <div class="mt-4 flex flex-wrap gap-2 text-xs text-gray-300">
                                             <span
-                                                class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">Operations</span>
+                                                class="pill">Operations</span>
                                             <span
-                                                class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">Team
+                                                class="pill">Team
                                                 Coordination</span>
                                             <span
-                                                class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">Logistics</span>
+                                                class="pill">Logistics</span>
                                         </div>
                                     </article>
 
 
                                     <!-- Best Buy -->
-                                    <article class="rounded-2xl border border-gray-800 bg-gray-900/50 p-6 shadow-sm">
+                                    <article class="reg-card">
                                         <div class="flex flex-wrap items-start justify-between gap-2">
                                             <h3 class="text-lg font-semibold text-gray-100">Technology Sales Consultant
                                             </h3>
@@ -407,12 +407,12 @@
 
                                         <div class="mt-4 flex flex-wrap gap-2 text-xs text-gray-300">
                                             <span
-                                                class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">Networking</span>
+                                                class="pill">Networking</span>
                                             <span
-                                                class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">Customer
+                                                class="pill">Customer
                                                 Support</span>
                                             <span
-                                                class="rounded-full border border-gray-700 bg-gray-950/40 px-3 py-1">Problem
+                                                class="pill">Problem
                                                 Solving</span>
                                         </div>
                                     </article>
@@ -430,24 +430,24 @@
 
         <!-- Education Section -->
         <section id="education" class="py-16">
-            <div class="mx-auto max-w-6xl px-4">
-                <div class="grid gap-10 lg:grid-cols-12">
+            <div class="section-wrap">
+                <div class="section-grid">
 
                     <!-- Left Section Title-->
-                    <div class="lg:col-span-4">
-                        <h2 class="text-3xl font-semibold text-gray-100">Education</h2>
-                        <div class="mt-3 h-1 w-16 rounded bg-blue-400"></div>
+                    <div class="section-left">
+                        <h2 class="section-title">Education</h2>
+                        <div class="section-underline"></div>
                         <p class="mt-4 max-w-xl text-gray-400">
                             My background bridges media production and technical systems design. I build software with structure and clarity.
                         </p>
                     </div>
 
                     <!-- Right: Education Cards -->
-                    <div class="lg:col-span-8">
+                    <div class="section-right">
                         <div class="space-y-4">
 
                             <!-- Degree Card -->
-                            <article class="rounded-2xl border border-gray-800 bg-gray-900/50 p-6 shadow-sm">
+                            <article class="reg-card">
                                 <!-- Degree + Year -->
                                 <div class="flex flex-wrap items-start justify-between gap-2">
                                     <h3 class="text-lg font-semibold text-gray-100">
@@ -474,7 +474,7 @@
                             </article>
 
                             <!-- Degree Card -->
-                            <article class="rounded-2xl border border-gray-800 bg-gray-900/50 p-6 shadow-sm">
+                            <article class="reg-card">
                                 <!-- Degree + Year -->
                                 <div class="flex flex-wrap items-start justify-between gap-2">
                                     <h3 class="text-lg font-semibold text-gray-100">
@@ -507,13 +507,13 @@
 
         <!-- Skills Section -->
         <section id="skills" class="py-16">
-            <div class="mx-auto max-w-6xl px-4">
-                <div class="grid gap-10 lg:grid-cols-12">
+            <div class="section-wrap">
+                <div class="section-grid">
 
                     <!-- Left Section Title -->
-                    <div class="lg:col-span-4">
-                        <h2 class="text-3xl font-semibold text-gray-100">Skills</h2>
-                        <div class="mt-3 h-1 w-16 rounded bg-blue-400"></div>
+                    <div class="section-left">
+                        <h2 class="section-title">Skills</h2>
+                        <div class="section-underline"></div>
 
                         <p class="mt-6 text-sm leading-relaxed text-gray-300">
                             Tools and technologies I use to build and support web applications.
@@ -536,7 +536,7 @@
                     </div>
 
                     <!-- Right: Icon Grid -->
-                    <div class="lg:col-span-8">
+                    <div class="section-right">
                         <div class="grid grid-cols-4 gap-4 justify-items-center">
 
                             <!-- Html Card -->
@@ -634,13 +634,13 @@
 
         <!-- Contact Section -->
         <section id="contact" class="py-16">
-            <div class="mx-auto max-w-6xl px-4">
-                <div class="grid gap-10 lg:grid-cols-12">
+            <div class="section-wrap">
+                <div class="section-grid">
 
                     <!-- Left Section Title -->
-                    <div class="lg:col-span-4">
-                        <h2 class="text-3xl font-semibold text-gray-100">Contact</h2>
-                        <div class="mt-3 h-1 w-16 rounded bg-blue-400"></div>
+                    <div class="section-left">
+                        <h2 class="section-title">Contact</h2>
+                        <div class="section-underline"></div>
 
                         <p class="mt-6 text-sm leading-relaxed text-gray-300">
                             Feel free to reach out about opportunities, collaboration, or questions.
@@ -683,7 +683,7 @@
                     </div>
 
                     <!-- Right: Form -->
-                    <div class="lg:col-span-8">
+                    <div class="section-right">
                         <div class="rounded-2xl border border-gray-800 bg-gray-900/50 p-6">
                             <form action="#" method="post" class="space-y-5">
 
@@ -739,7 +739,7 @@
     </main>
 
     <footer class="border-t border-gray-800 py-4">
-        <div class="mx-auto max-w-6xl px-4 text-gray-500">
+        <div class="section-wrap text-gray-500">
             © <span id="year"></span> Josh. Built with GitHub Pages.
         </div>
     </footer>
