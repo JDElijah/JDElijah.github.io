@@ -657,7 +657,7 @@
                     <!-- Right: Form -->
                     <div class="section-right">
                         <div class="rounded-2xl border border-gray-800 bg-gray-900/50 p-6">
-                            <form action="https://formspree.io/f/xreaowad" method="POST" class="space-y-5">
+                            <form id="contact-form" action="https://formspree.io/f/xreaowad" method="POST" class="space-y-5">
                                 <input type="hidden" name="_subject" value="New Portfolio Message" />
                                 <input type="hidden" name="_captcha" value="false" />
                                 <div class="grid gap-4 sm:grid-cols-2">
@@ -696,6 +696,14 @@
                                     </button>
                                 </div>
                             </form>
+
+                            <div id="contact-success" class="hidden mt-4 rounded-xl border border-green-500/30 bg-green-500/10 p-4 text-sm text-green-200">
+                                Your message has been sent. Thank you!
+                            </div>
+
+                            <div id="contact-error" class="hidden mt-4 rounded-xl border border-red-500/30 bg-red-500/10 p-4 text-sm text-red-200">
+                                Something went wrong. Please try again or email me directly.
+                            </div>
 
                             <!-- Helper Text -->
                             <p class="mt-4 text-sm text-gray-400">
