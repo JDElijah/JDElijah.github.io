@@ -38,7 +38,7 @@ function initMobileNav() {
 
 function initContactForm() {
   const form = document.getElementById("contact-form");
-  const success = document.ById("contact-success");
+  const success = document.getElementById("contact-success");
   const errorBox = document.getElementById("contact-error");
 
   if (!form) return;
